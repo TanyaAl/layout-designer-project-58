@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    max-width: 1440px;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-color: #F5F4F0;
+    background-image: url('../../assets/images/background.png');
+    background-size: cover;
+    width: 1440px;
+    height: 914px;
+}
