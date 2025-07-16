@@ -11,7 +11,6 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #F5F4F0;
 }
 
 #main {
@@ -19,10 +18,12 @@ body {
 }
 
 header {
-    max-width: 1440px;
-    max-height: 914px;
     position: relative;
+    overflow: hidden;
+    max-width: 1440px;
+    height: 914px;
     margin: 0;
+    background-color: #F5F4F0;
 }
 
 header::before {
@@ -33,10 +34,9 @@ header::before {
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.1;
-    z-index: -1;
 }
 
-.header-content {
+.content {
     position: relative;
     max-width: 1110px;
     margin: 100px auto;
@@ -44,7 +44,6 @@ header::before {
 }
 
 .title-header {
-    position: relative;
     font-size: 72px;
     font-family: 'Neucha';
     color: #FE8A02;
@@ -59,25 +58,25 @@ header::before {
 }
 
 .header-img {
-    position: relative;
+    position: absolute;
     height: 525px;
-    left: -270px;
+    right: -270px;
     top: -55px;
-    z-index: 1;
+    margin-top: 12px;
 }
 
 .article-text {
     font-size: 16px;
     color: #2A2626;
     font-family: 'Open Sans';
-    line-height: 1.6em;
+    line-height: 25.6px;
+    margin: 0;
 }
 
 .title-and-img {
     position: relative;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
 }
 
 .column p {
@@ -85,17 +84,17 @@ header::before {
 }
 
 .column-flex {
-    /* position: absolute; */
     display: flex;
     gap: 30px;
-    /* margin-top: -100px; */
+    margin-top: 200px;
 }
 
 .column {
     width: 50%;
 }
 
-.btn-header {
+.link-header {
+    display: inline-block;
     background-color: #FE8A02;
     border: none;
     padding: 12px 24px;
@@ -108,4 +107,54 @@ header::before {
     font-weight: 700;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+.link-text {
+    text-decoration: none;
+    color: inherit;
+}
+
+.preview-image {
+    position: relative;
+    background-color: #FFFFFF;
+    height: 914px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#preview-image p {
+    margin-top: 16px;
+}
+
+#preview-image img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 280px;
+    bottom: 16px;
+    height: 517px;
+    width: 919px;
+    filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+.section-title {
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Neucha';
+    font-weight: 400;
+    color: #FE8A02;
+    margin-bottom: 30px;
+    line-height: 1.2em;
+}
+
+.section-2title {
+    text-align: center;
+}
+
+.preview-footer {
+    margin-top: 415px;
+    background-color: #42413C;
+    height: 100px;
+    width: 100%;
 }
