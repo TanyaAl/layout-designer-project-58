@@ -59,7 +59,6 @@ label {
 .page {
     position: relative;
     overflow: hidden;
-    /* height: auto; */
     margin: 0;
 }
 
@@ -84,6 +83,10 @@ label {
 
 .title-header {
     z-index: 2;
+}
+
+header .content {
+    margin-bottom: 95px
 }
 
 .header-img {
@@ -271,7 +274,7 @@ label {
     font-size: 34px;
     font-family: 'Neucha';
     margin: 0px;
-    line-height: 1.6;
+    line-height: 1.2;
 }
 
 section img {
@@ -440,6 +443,10 @@ section img {
 
 .orange-text {
     color: #FE8A02;
+}
+
+.light-text {
+    color: #D7CCC0;
 }
 
 .light-gray-text::placeholder {
