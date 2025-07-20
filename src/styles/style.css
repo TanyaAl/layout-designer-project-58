@@ -139,7 +139,7 @@ label {
 }
 
 .preview-image {
-    /* position: relative; */
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -148,12 +148,15 @@ label {
 }
 
 #preview-image img {
+    position: relative;
     height: 517px;
     width: 919px;
-    filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+    /* filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%)); */
+    z-index: 2;
 }
 
 .container-preview {
+    /* position: relative; */
     margin-bottom: -100px;
 }
 
