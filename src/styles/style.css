@@ -146,18 +146,13 @@ label {
 }
 
 #preview-image img {
-    /* position: absolute; */
-    /* left: 50%; */
-    /* transform: translateX(-50%); */
-    /* top: 230px; */
-    /* margin-bottom: 16px; */
     height: 517px;
     width: 919px;
     filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
 .container-preview {
-    margin-bottom: -116px;
+    margin-bottom: -100px;
 }
 
 .section-title {
@@ -181,9 +176,10 @@ label {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     margin-top: 100px;
-    margin-bottom: 0px;
+    /* margin-bottom: 0px; */
     max-width: 1440px;
     gap: 30px;
 }
