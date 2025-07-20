@@ -157,7 +157,7 @@ label {
 }
 
 .container-preview {
-    margin-bottom: 116px;
+    margin-bottom: -116px;
 }
 
 .section-title {
