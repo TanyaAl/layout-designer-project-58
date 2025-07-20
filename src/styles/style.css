@@ -176,12 +176,12 @@ label {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
     margin-top: 100px;
     /* margin-bottom: 0px; */
-    max-width: 1440px;
-    gap: 30px;
+    /* max-width: 1440px; */
+    column-gap: 30px;
+    align-items: stretch;
 }
 
 .title-navigation {
@@ -197,13 +197,14 @@ label {
     display: flex;
     padding: 24px;
     flex-direction: column;
-    height: 323px;
-    width: 350px;
+    /* height: 291px; */
+    width: 302px;
+    margin-bottom: 20px;
+    /* box-sizing: border-box; */
 }
 
 .navigation-card-title {
     display: flex;
-    padding: 24px;
     flex-direction: column;
     height: 323px;
     width: 350px;
