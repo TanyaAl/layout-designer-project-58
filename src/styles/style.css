@@ -324,6 +324,7 @@ footer .content {
 .footer-form {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 50%;
 }
 
@@ -335,6 +336,7 @@ footer .content {
 }
 
 .subscribe-form {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -344,6 +346,7 @@ footer .content {
 
 .subscribe-btn {
     position: relative;
+    left: 0px;
     padding: 0;
     border: 0;
     height: 50px;
@@ -390,6 +393,7 @@ footer .content {
 
 .footer-text {
     font-size: 14px;
+    margin-bottom: 16px;
 }
 
 .light-background {
