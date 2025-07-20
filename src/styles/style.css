@@ -166,8 +166,8 @@ label {
 }
 
 #navigation {
-    margin-top: -100px;
-    padding-top: 100px;
+    margin-top: -116px;
+    padding-top: 116px;
     padding-bottom: 100px;
     /* z-index: 1; */
 }
@@ -178,7 +178,7 @@ label {
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 100px;
-    /* margin-bottom: 0px; */
+    margin-bottom: 0px;
     /* max-width: 1440px; */
     column-gap: 30px;
     align-items: stretch;
@@ -201,6 +201,10 @@ label {
     width: 302px;
     margin-bottom: 20px;
     /* box-sizing: border-box; */
+}
+
+.navigation-card p {
+    margin-bottom: 0px;
 }
 
 .navigation-card-title {
