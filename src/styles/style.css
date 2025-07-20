@@ -59,7 +59,7 @@ label {
 .page {
     position: relative;
     overflow: hidden;
-    height: auto;
+    /* height: auto; */
     margin: 0;
 }
 
@@ -103,7 +103,7 @@ label {
 .column-flex {
     display: flex;
     gap: 30px;
-    margin-top: 195px;
+    margin-top: 200px;
 }
 
 .column {
@@ -125,7 +125,8 @@ label {
     font-size: 16px;
     font-family: 'Open Sans';
     font-weight: 700;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
+    line-height: 1.6em;
 }
 
 .link-text {
