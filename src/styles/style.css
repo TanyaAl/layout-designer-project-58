@@ -328,6 +328,7 @@ footer .content {
     flex-direction: row;
     justify-content: space-between;
     padding: 55px;
+    align-items: center;
     /* margin: 100px 0px auto; */
     /* gap: 122px; */
     /* width: 1110px;/ */
