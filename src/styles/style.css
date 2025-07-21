@@ -1,10 +1,10 @@
 @font-face {
-    font-family: 'Neucha';
+    font-family: Neucha;
     src: url('../../assets/Neucha-Regular.ttf');
 }
 
 @font-face {
-    font-family: 'OpenSans';
+    font-family: OpenSans;
     src: url('../../assets/OpenSans.ttf');
 }
 
@@ -16,7 +16,7 @@ body {
 
 h1 {
     font-size: 72px;
-    font-family: 'Neucha';
+    font-family: Neucha;
     font-weight: 400;
     color: #FE8A02;
     margin: 0;
@@ -26,7 +26,7 @@ h1 {
 h2 {
     font-size: 60px;
     font-weight: 400;
-    font-family: 'Neucha';
+    font-family: Neucha;
     color: #FE8A02;
     margin: 0;
     line-height: 1.2;
@@ -35,7 +35,7 @@ h2 {
 h3 {
     font-size: 34px;
     font-weight: 400;
-    font-family: 'Neucha';
+    font-family: Neucha;
     color: #FE8A02;
     margin: 0;
     line-height: 1.2;
@@ -123,7 +123,7 @@ label {
 
 .btn-text {
     font-size: 16px;
-    font-family: 'OpenSans';
+    font-family: OpenSans;
     font-weight: 700;
     line-height: 1.6em;
 }
@@ -142,7 +142,9 @@ label {
     display: flex;
     flex-direction: column;
     align-items: center;
+
     /* z-index: 0; */
+
     /* min-height: 814px; */
 }
 
@@ -150,26 +152,30 @@ label {
     position: relative;
     height: 517px;
     width: 919px;
+
     /* z-index: 2; */
     width: 100%;
     filter: none;
+
     /* border: 3px solid red; */
 }
 
 .container-preview {
     position: relative;
-    margin-bottom: 0px;
+    margin-bottom: 0;
+
     /* z-index: 1; */
 }
 
 .video {
-    filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+    filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
     display: block;
     width: 919px;
     height: 517px;
     border: none;
     position: relative;
     z-index: 2;
+
     /* border: 3px solid red; */
 }
 
@@ -189,25 +195,25 @@ label {
     margin-top: -200px;
     padding-top: 200px;
     padding-bottom: 100px;
+
     /* z-index: 0; */
 }
 
 .navigation {
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
+
     /* max-width: 1440px; */
-    column-gap: 30px;
-    row-gap: 20px;
+    gap: 20px 30px;
     align-items: stretch;
 }
 
 .title-navigation {
     font-size: 52px;
-    font-family: 'Neucha';
+    font-family: Neucha;
     line-height: 1.2;
     margin: 0;
     margin-bottom: 16px;
@@ -218,14 +224,17 @@ label {
     display: flex;
     padding: 24px;
     flex-direction: column;
+
     /* height: 291px; */
     width: 302px;
+
     /* margin-bottom: 20px; */
+
     /* box-sizing: border-box; */
 }
 
 .card-text {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .navigation-card-title {
@@ -241,11 +250,11 @@ label {
 
 .navigation-card:hover p,
 .navigation-card:hover h3 {
-    color: #FFFFFF;
+    color: #FFF;
 }
 
 .title-number {
-    font-family: 'Neucha';
+    font-family: Neucha;
     line-height: 1;
     color: #42413C;
     font-size: 64px;
@@ -265,14 +274,14 @@ label {
 
 .title-bias {
     margin-bottom: 30px;
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 
 .text-bias {
     font-size: 24px;
-    font-family: 'Neucha';
-    margin: 0px;
+    font-family: Neucha;
+    margin: 0;
 }
 
 .bias-title-img {
@@ -283,13 +292,13 @@ label {
 
 .bias-subtitle {
     font-size: 34px;
-    font-family: 'Neucha';
-    margin: 0px;
+    font-family: Neucha;
+    margin: 0;
     line-height: 1.2;
 }
 
 section img {
-    filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+    filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
 }
 
 .bias-how-manifests {
@@ -297,7 +306,7 @@ section img {
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
-    font-family: 'OpenSans';
+    font-family: OpenSans;
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
@@ -341,9 +350,13 @@ footer .content {
     padding: 38px 55px;
     align-items: center;
     box-sizing: border-box;
+
     /* margin: 100px 0px auto; */
+
     /* gap: 122px; */
+
     /* width: 1110px;/ */
+
     /* border: 3px solid green; */
 }
 
@@ -376,11 +389,9 @@ footer .content {
 }
 
 .subscribe-btn {
-    height: 50px;
-    width: 70px;
     position: absolute;
     top: 38px;
-    right: 0px;
+    right: 0;
     border: none;
     outline: none;
     height: 50px;
@@ -404,6 +415,7 @@ footer .content {
 .footer-form label {
     margin-bottom: 9px;
     font-size: 18px;
+
     /* line-height: 1.6; */
 }
 
@@ -415,6 +427,7 @@ footer .content {
 
 .text-agreement {
     font-size: 12px;
+
     /* line-height: 1.6; */
 }
 
@@ -446,7 +459,7 @@ footer .content {
 }
 
 .white-background {
-    background-color: #FFFFFF;
+    background-color: #FFF;
 }
 
 .orange-background {
@@ -454,17 +467,17 @@ footer .content {
 }
 
 .white-on-brown {
-    color: #FFFFFF;
+    color: #FFF;
     background-color: #B09A81;
 }
 
 .brown-on-white {
     color: #B09A81;
-    background-color: #FFFFFF;
+    background-color: #FFF;
 }
 
 .white-text {
-    color: #FFFFFF
+    color: #FFF
 }
 
 .black-text {
