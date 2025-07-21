@@ -1,11 +1,11 @@
 @font-face {
   font-family: Neucha;
-  src: url('../../assets/Neucha-Regular.ttf');
+  src: url("../../assets/Neucha-Regular.ttf");
 }
 
 @font-face {
   font-family: OpenSans;
-  src: url('../../assets/OpenSans.ttf');
+  src: url("../../assets/OpenSans.ttf");
 }
 
 html,
@@ -68,8 +68,8 @@ section img {
 .page::before {
   position: absolute;
   inset: 0;
-  content: '';
-  background-image: url('../../assets/images/background.png');
+  content: "";
+  background-image: url("../../assets/images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.1;
@@ -364,8 +364,8 @@ footer .content {
 .subscribe-btn::before {
   position: absolute;
   inset: 0;
-  content: '';
-  background-image: url('../../assets/images/send.svg');
+  content: "";
+  background-image: url("../../assets/images/send.svg");
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
@@ -432,7 +432,7 @@ footer .content {
 }
 
 .white-text {
-  color: #fff
+  color: #fff;
 }
 
 .black-text {
