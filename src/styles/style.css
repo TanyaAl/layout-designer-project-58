@@ -84,10 +84,6 @@ label {
     z-index: 2;
 }
 
-/* header .content {
-    margin-bottom: 95px
-} */
-
 .header-img {
     position: absolute;
     height: 525px;
@@ -142,11 +138,11 @@ label {
 }
 
 .preview-image {
-    position: relative;
+    /* position: relative; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    z-index: 0;
+    /* z-index: 0; */
     /* min-height: 814px; */
 }
 
@@ -154,8 +150,8 @@ label {
     position: relative;
     height: 517px;
     width: 919px;
-    /* filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%)); */
     z-index: 2;
+    /* filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%)); */
 }
 
 .container-preview {
@@ -175,6 +171,7 @@ label {
 }
 
 #navigation {
+    position: relative;
     margin-top: -100px;
     padding-top: 100px;
     padding-bottom: 100px;
